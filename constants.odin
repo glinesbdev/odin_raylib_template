@@ -1,0 +1,5 @@
+package game
+
+WINDOW_WIDTH :: 640
+WINDOW_HEIGHT :: 480
+DELTA_TIME :: 1.0 / 60
