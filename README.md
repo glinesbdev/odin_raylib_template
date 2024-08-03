@@ -2,7 +2,8 @@
 
 This is a raylib library game development template which includes such features as:
 
-* Initialization of memory tracking to help find memory leaks.
+* Initialization of memory tracking to help find memory leaks. This is controlled by a `#config` build parameter
+    defined as `MEMCHECK` which is on by default. Use `-define:MEMCHECK=false` during build to disable.
 * Initialization of a Raylib window with VSYNC turned on.
 * Delta Time calculations (default set to 60 FPS). This also calculates a "delta time blend" which is used for smoother
     calculation of different objects for a game.
